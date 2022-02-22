@@ -112,7 +112,6 @@ class App extends Component {
     snake.forEach((dot) => {
       if (head[0] === dot[0] && head[1] === dot[1]) {
         this.onGameOver();
-        console.log("coll");
       }
     });
   }
